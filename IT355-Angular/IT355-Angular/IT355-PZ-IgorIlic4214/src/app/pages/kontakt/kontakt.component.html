@@ -1,0 +1,42 @@
+<app-header></app-header>
+<div class='contact-box'>
+    <form action='includes/posaljiporuku.php' method='POST'>
+        <h1>Ostavite komentar</h1>
+        <div class='contact-textbox'>
+            <input type='text' name='tema' placeholder='Tema' required />
+        </div>
+        <div class='contact-textbox'>
+            <textarea type='textarea' rows='4' cols='50' name='poruka' placeholder='Ukucajte Vasu poruku'
+                required></textarea>
+        </div>
+        <input class='contact-btn' type='submit' value='Posalji' />
+    </form>
+</div>
+<div class="container">
+    <div class="box2">
+        <div class="icon">
+            <i class="fa fa-map-marker"></i>
+            <h4>Adress</h4>
+            <h3>Borca, Beograd, Srbija</h3>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="icon">
+            <i class="fa fa-phone"></i>
+            <h4>Mobile</h4>
+            <h3>+381 069 420 334</h3>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="icon"><i class="fa fa-envelope"></i>
+            <h4>Email</h4>
+            <h3>brmbrmshop@gmail.com</h3>
+        </div>
+    </div>
+</div>
+<p id="mapa"><iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45238.84509954472!2d20.43731685!3d44.873941949999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a647d1185abe3%3A0x96ebd3d2114ce3dd!2zQm9yxI1hLCBTZXJiaWE!5e0!3m2!1sen!2suk!4v1688005634695!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        width="900" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+</p>
+<app-footer></app-footer>
